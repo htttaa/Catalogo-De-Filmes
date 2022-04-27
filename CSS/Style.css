@@ -1,0 +1,59 @@
+input {
+    margin: 0rem;
+    padding: 0em;
+    font-size: 2rem;
+}
+
+body{
+    font-family: "Roboto Mono" , monospace;
+    text-align: center;
+    background-color: #000;
+    background-size: cover; 
+    background-position: center top;
+    background-image: url(https://portlandartmuseum.org/wp-content/uploads/2014/08/LAIKA-Curtain-banner-1.jpeg);
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.page-title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;   
+}
+
+.page-subtitle {
+    margin-top: 10px;
+}
+
+img{
+    max-height: 250px;
+}
+
+#filme, #titulo {
+    width: 30rem;
+    margin: 1rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+
+.botao {
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: rgb(104, 3, 3);
+    color: white;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: rgb(185, 28, 28);
+}
