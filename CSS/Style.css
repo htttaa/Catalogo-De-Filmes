@@ -31,6 +31,7 @@ body{
 
 .page-subtitle {
     margin-top: 10px;
+    background-color: #000;
 }
 
 img{
@@ -49,11 +50,33 @@ img{
     border-radius: 0.5rem;
     margin: 1rem;
     padding: 2rem;
-    background-color: rgb(104, 3, 3);
+    background-color: rgb(134, 31, 31);
     color: white;
     cursor: pointer;
 }
 
 .botao:hover {
     background-color: rgb(185, 28, 28);
+}
+
+#erro {
+    background-color: rgb(185, 28, 28);
+    color: #fff
+}
+
+#catalogo {
+    display: flex;
+    flex-flow: wrap;
+    padding: 1rem;
+}
+
+.retangulo {
+    position: absolute;
+    width: 50%;
+    height: 35%;
+    background-color: #000;
+    z-index: -1;
+    border-radius: 0.5rem;
+    opacity: 0.8;
+    left: 20rem;
 }
